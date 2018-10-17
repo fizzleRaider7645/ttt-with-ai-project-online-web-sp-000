@@ -118,7 +118,6 @@ class Game
     until count == 100
       input = self.current_player.move(board)
       board.update(input, current_player)
-      binding.pry
       board.turn_count
     end
     
