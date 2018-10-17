@@ -113,7 +113,7 @@ class Game
     end
   end
   
-  def wargames
+  def wargame
     count = 0
     until count == 100
       input = self.current_player.move(board)
