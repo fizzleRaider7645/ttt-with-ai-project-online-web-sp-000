@@ -53,6 +53,6 @@ require_relative '../config/environment'
     player_1 = Players::Computer.new("X")
     player_2 = Players::Computer.new("O")
     game = Game.new(player_1, player_2)
-    game.wargame
+    game.play
   end
       
